@@ -1,16 +1,15 @@
 {
-  "name": "patrol-attendance",
+  "name": "patrol-attendance-admin",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
   "dependencies": {
+    "firebase": "^9.22.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
-    "firebase": "^9.22.0",
     "react-scripts": "^5.0.1"
   }
 }
