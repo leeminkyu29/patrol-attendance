@@ -1,1 +1,1 @@
-// Register component code placeholder
+// Register component placeholder

@@ -1,1 +1,1 @@
-// Home component code placeholder
+// Home component placeholder
