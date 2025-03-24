@@ -1,5 +1,5 @@
 {
-  "name": "patrol-attendance-admin",
+  "name": "patrol-attendance-admin-firebase",
   "version": "1.0.0",
   "scripts": {
     "start": "react-scripts start",
