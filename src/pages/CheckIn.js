@@ -1,0 +1,1 @@
+// CheckIn component code placeholder
