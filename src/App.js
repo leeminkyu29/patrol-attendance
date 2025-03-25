@@ -1,15 +1,14 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import AdminLogin from "./pages/AdminLogin";
-import AdminDashboard from "./pages/AdminDashboard";
-import Home from "./pages/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import DashboardTemplate from "./pages/DashboardTemplate";
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/admin" element={<AdminLogin />} />
-      <Route path="/admin/dashboard" element={<AdminDashboard />} />
-    </Routes>
+    <Router>
+      <Routes>
+        <Route path="/" element={<DashboardTemplate />} />
+        {/* 여기에 다른 페이지 추가 가능 */}
+      </Routes>
+    </Router>
   );
 }
